@@ -1,0 +1,18 @@
+1.查看所有全局安装的模块
+npm list --depth=0 -global
+
+2.http-server是一个基于Node.js的简单零配置命令行HTTP服务器. 如果你不想重复的写Node.js的web-server.js, 则可以使用这个. 
+安装命令:
+
+npm install http-server -g
+1
+启动http-server命令就是在cmd下直接输入http-server，之后就可以浏览器访问http://localhost:8080. 
+默认web目录是当前目录，想改变web目录的话，在命令后面加上本地路径，例如：
+
+http-server <path_of_project>
+1
+查看帮助使用http-server --help，如果想改变端口和地址采用如下方式：
+
+http-server <path> -a 0.0.0.0 -p 8080
+1
+参数-a是监听地址，而参数-p是修改监听端口。
