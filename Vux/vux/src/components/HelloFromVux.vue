@@ -6,17 +6,19 @@
     </div>
     <group title="cell demo">
       <cell title="VUX" value="cool" is-link></cell>
+      <x-switch title="我是1啊啊"></x-switch>
     </group>
   </div>
 </template>
 
 <script>
-import { Group, Cell } from 'vux'
+import { Group, Cell, XSwitch } from 'vux'
 
 export default {
   components: {
     Group,
-    Cell
+    Cell,
+    XSwitch
   },
   data () {
     return {
@@ -35,7 +37,7 @@ export default {
   text-align: center;
 }
 .logo {
-  width: 100px;
-  height: 100px
+  width: 120px;
+  height: 120px
 }
 </style>
