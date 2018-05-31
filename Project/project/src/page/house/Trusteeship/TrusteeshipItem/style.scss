@@ -1,0 +1,94 @@
+.trusteeship-item {
+
+  padding: 10px 25px;
+  font-size: 13px;
+  color: #555;
+  cursor: pointer;
+  border-top: 1px solid #eee;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  &:hover {
+    box-shadow: 0 0 10px #cecece;
+    background-color: #f7f9fa;
+    z-index: 1;
+  }
+
+  .el-col div {
+    display: table;
+    line-height: 25px;
+  }
+
+  .el-col div p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .el-col .houseSpaceStatus p {
+    display: block
+  }
+}
+
+.lin55 {
+  height: 55px;
+  line-height: 55px;
+}
+
+.pad8 {
+  padding: 8.5px 0;
+}
+
+.pad9 {
+  padding: 9px 0;
+}
+
+.el-col {
+  height: 55px;
+}
+
+.el-dropdown {
+  z-index: 1;
+}
+
+.el-dropdown-menu {
+  top: 60px;
+  transition: all .5s;
+  /*opacity: 0;*/
+  display: none;
+  /*right: 0!important;*/
+  /*left: auto;*/
+  /*-webkit-opacity: 0;*/
+  z-index: 0;
+  background: #fff;
+}
+
+.el-dropdown:hover {
+  z-index: 2;
+  transition: all .5s;
+}
+
+.el-dropdown:hover .el-dropdown-menu {
+  /*opacity: 1;*/
+  /*-webkit-opacity: 1;*/
+  display: block;
+  z-index: 2;
+}
+
+.el-dropdown-menu {
+  top: 37px;
+  margin-top: 0;
+}
+
+.el-dropdown:hover .el-dropdown-menu {
+  /*opacity: 1;*/
+  /*-webkit-opacity: 1;*/
+  z-index: 2;
+  display: block;
+}
+
+.el-dropdown-menu__item {
+  font-size: 14px;
+}
+

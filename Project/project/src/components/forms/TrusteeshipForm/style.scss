@@ -1,0 +1,71 @@
+@import '../../../../static/css/app.css';
+
+.houseSizeP {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+
+.dialog-footer {
+  text-align: right;
+  padding-right: 35px;
+}
+
+table {
+  border: 1px solid #666;
+}
+
+tr {
+  border-top: 1px solid #666;
+  position: relative;
+}
+
+tr td {
+  width: 13%;
+  text-align: center;
+  padding: 5px 2px;
+  border-right: 1px solid #666;
+}
+
+tr .el-input--mini .el-input__inner {
+  padding-right: 3px 5px;
+}
+
+tr .el-form--inline .el-form-item {
+  margin-right: 5px
+}
+
+.date .el-input__icon+.el-input__inner {
+  padding: 3px 5px;
+}
+
+.el-dialog__body table,
+.el-form-item__content .houseSizeP {
+  font-size: 12px
+}
+
+tr .el-form-item__content {
+  line-height: 22px;
+}
+
+tr .aaa {
+  position: relative;
+  display: inline-block
+}
+
+tr .add {
+  position: absolute;
+  top: calc(50% - 18px);
+  right: -20px;
+  width: 16px;
+  height: 36px;
+  background: url('../../../../static/img/add.png') center center / 16px 16px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  /*display: none;*/
+}
+
+.el-radio-group {
+  margin-top: -2px;
+}
