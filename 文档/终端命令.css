@@ -18,5 +18,7 @@ http-server <path> -a 0.0.0.0 -p 8080
 参数-a是监听地址，而参数-p是修改监听端口。
 
 2同步vcode插件和设置
-GitHub Token: ad9a98bcc7f254341740783ac1b01a5bff073705
-GitHub Gist: 5d8062564fb505b1d947837a8d469c6f
+先下载插件sync Setting
+gistId地址:https://gist.github.com/
+GitHub Token: 94c436d6a27096556e44cb1df626b723836ab545 
+GitHub Gist: 460ed27eed491fb739f4341941d20c81
